@@ -8,6 +8,8 @@ description: The if condition evaluates the condition, and if the condition is t
 
 The easiest condition is an if statement and its syntax is `if(condition){ do this … }`. The condition has to be true for the code inside the curly braces to be executed. You can for example test a string and set the value of another string dependent on its value as described below.
 
+note: the === is unnecessary for comparing strings. == operator will suffice. i would say that you should really only use the === when a number might possibly be a string, like '3'
+
 ```javascript
 let country = "France";
 let weather;
